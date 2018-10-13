@@ -1,0 +1,104 @@
+
+.navbar {
+    background: white;
+    font-size: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+.navbar-brand {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white !important;
+    background: rgb(15, 165, 165);
+
+}
+.navbar li a {
+    display: block;
+    color: red !important;
+  }
+
+.container {
+    display: block;
+    background-color: white;
+}
+
+.container h1 {
+    color:  purple;
+    font-family: American Typewriter;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.container h2 {
+    color: rgb(6, 218, 255);
+    padding-top: 30px;
+    padding-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.container img {
+    display: inline;
+    margin: 20px 20px;
+}
+.container p {
+    display: block;
+    padding: 10px;
+    line-height: 2.0;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    color:darkblue;
+}
+
+.col-lg-8 {
+    border-right: solid white;
+    border-right-width: 40px;
+    padding: 40px;
+}
+
+.col-md-6 {
+    margin-left: -10px;
+}
+.container h3 {
+    color: chocolate;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#maintable {  
+    width: 100%;
+    border-collapse: collapse; 
+    border-spacing: 40px;
+    padding: 50px;
+}
+#maintable td, th { border: 1px solid #CCC; 
+text-align:  center;}  
+
+
+#maintable th {  
+    background: #F3F3F3; 
+    font-weight: bold; 
+}
+
+#maintable td {  
+    background: #FAFAFA; 
+    text-align: center; 
+}
+
+.boxx {
+    border: solid pink;
+
+}
+
+@media (max-width: 800px)
+{
+    .col-lg-8 {
+        border-bottom: white;
+        border-bottom-width: 40px;
+        border-right: 20px;
+    }
+}
+

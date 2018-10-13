@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+<Head>
+    <meta charset="UTF-8">
+    <title>Lattitude Analysis Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href = "style.css">
+    <style>
+        body {background-color:lightgrey}
+  </style>
+  
+  </Head>
+
+  <body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand logo" href="index.html">Lattitude</span></a> 
+            </div>
+
+            <div class="nav navbar-nav navbar-right">
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Plots<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="temperature.html">Max Temperature</a></li>
+                        <li><a href="humidity.html">Humidity</a></li>
+                        <li><a href="cloudiness.html">Cloudiness</a></li>
+                        <li><a href="windspeed.html">Wind Speed</a></li>
+                    </ul>
+                </li>
+                <li><a href="comparison.html"> Comparison</a></li>
+                <li><a href="data.html"> Data</a></li>                                           
+            </div>
+        </div>      
+    </nav>
+
+    <div class = "container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+
+                    <h2>Humidity</h2>
+                    <hr>
+                    <img src="Images\weather_humidity.png" alt="hum" height="400" width="600">
+                    <p class = "text">There seems to be not a lot variation for humidity as it seems to be pretty humid at 60-100% for every latitude. 
+                    <br>        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                        <div class="panel-body">                                    
+                            <h2>Visualizations</h2>
+                            <hr>
+                        <div class= "col-md-6 col-sm-3">
+                            <img id ="pic1" src="Images\weather_temperature.png" alt="temperature" height="150" width="150"> 
+                        </div> 
+                        <div class= "col-md-6 col-sm-3">
+                            <img class = "boxx" id ="pic2" src="Images\weather_humidity.png" alt="humidity" height="150" width="150">
+                        </div> 
+                        <div class= "col-md-6 col-sm-3">
+                            <img id = "pic3" src="Images\weather_cloud.png" alt="cloudiness" height="150" width="150">
+                        </div> 
+                        <div class= "col-md-6 col-sm-3">
+                            <img id = "pic4" src="Images\weather_wind_speed.png" alt="windspeed" height="150" width="150">
+                        </div> 
+
+                    </div>
+                </div>     
+            </div>    
+    </div>
+  </body>
+  </html>
